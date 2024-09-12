@@ -1,0 +1,58 @@
+.try .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.try__text {
+  text-align: center;
+  font-size: 108px;
+  font-weight: 900;
+  color: white;
+}
+
+.try-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../images/components/header-button__image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 125px;
+  height: 38px;
+
+  transition-property: scale;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.44, 0, 0.56, 1);
+
+  @include big-mobile {
+    width: 198.5px;
+    height: 60px;
+  }
+
+  @include tablet {
+    width: 675px;
+    height: 240px;
+  }
+}
+
+.try-button:hover {
+  scale: 1.05;
+}
+
+.try-button__text {
+  font-size: 16px;
+  font-family: HYPERGOALS;
+  color: var(--black);
+
+  @include big-mobile {
+    font-size: 20px;
+  }
+
+  @include tablet {
+    font-size: 68px;
+  }
+}

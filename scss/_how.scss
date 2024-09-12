@@ -1,0 +1,44 @@
+.how .container {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.how__title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 30px;
+}
+
+.how__wrap {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.how__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: calc((100% - 120px) / 3);
+}
+
+.how__wrapper-text {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: var(--white);
+}
+
+.how__wrapper-image {
+  width: 100%;
+  height: auto;
+}
+
+.call .container {
+  padding-left: 55px;
+  padding-bottom: 100px;
+}
